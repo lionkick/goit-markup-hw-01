@@ -8,13 +8,12 @@
 
   <body>
     <header class="header">
-      <a href="./index.html" aria-label="Головна сторінка WebStudio">
-        <img
-          src="./images/header/WebStudio.png"
-          alt="Логотип"
-          width="145"
-          height="20"
-        />
+      <a
+        class="logo"
+        href="./index.html"
+        aria-label="Головна сторінка WebStudio"
+      >
+        Web<span class="half-logo">Studio</span>
       </a>
 
       <nav class="navigation">
@@ -35,7 +34,7 @@
     <main>
       <section class="hero">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <button class="button" type="button">Замовити послугу</button>
       </section>
       <section class="whatdowedo">
         <ul class="whatdowedo-list-cards">
@@ -109,7 +108,7 @@
               width="270"
               height="260"
             />
-            <p class="our-team-item-name">Ігор Дем'яненко</p>
+            <h3 class="our-team-item-name">Ігор Дем'яненко</h3>
             <p class="our-team-item-position">Product Designer</p>
           </li>
           <li class="our-team-item">
@@ -120,7 +119,7 @@
               width="270"
               height="260"
             />
-            <p class="our-team-item-name">Ольга Рєпіна</p>
+            <h3 class="our-team-item-name">Ольга Рєпіна</h3>
             <p class="our-team-item-position">Frontend Developer</p>
           </li>
           <li class="our-team-item">
@@ -131,7 +130,7 @@
               width="270"
               height="260"
             />
-            <p class="our-team-item-name">Микола Тарасов</p>
+            <h3 class="our-team-item-name">Микола Тарасов</h3>
             <p class="our-team-item-position">Marketing</p>
           </li>
           <li class="our-team-item">
@@ -142,7 +141,7 @@
               width="270"
               height="260"
             />
-            <p class="our-team-item-name">Михайло Єрмаков</p>
+            <h3 class="our-team-item-name">Михайло Єрмаков</h3>
             <p class="our-team-item-position">UI Designer</p>
           </li>
         </ul>
@@ -150,19 +149,22 @@
     </main>
     <footer class="footer">
       <div class="footer-group">
-        <a href="./index.html" aria-label="Головна сторінка WebStudio">
-          <img
-            src="./images/header/WebStudio.png"
-            alt="Логотип"
-            width="145"
-            height="20"
-          />
+        <a
+          class="logo"
+          href="./index.html"
+          aria-label="Головна сторінка WebStudio"
+        >
+          Web<span class="half-logo">Studio</span>
         </a>
         <address>м. Київ, пр-т Лесі Українки, 26</address>
-        <a class="footer-mailto" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="footer-tel" href="tel:380961111111">+38 096 111 11 11</a>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="footer-item">
+            <a href="tel:380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
